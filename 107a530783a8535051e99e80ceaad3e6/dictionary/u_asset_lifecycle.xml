@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0a969b558376479051e99e80ceaad32c" extends="task" label="Asset LifeCycle " max_length="40" name="u_asset_lifecycle" type="collection">
+        <element choice="1" label="Department" max_length="40" name="u_department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Marketing" sequence="0" value="Marketing"/>
+                <element inactive_on_update="false" label="Operations" sequence="0" value="Operations"/>
+                <element inactive_on_update="false" label="Sales" sequence="0" value="Sales"/>
+                <element inactive_on_update="false" label="IT" sequence="0" value="IT"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="HR"/>
+                <element inactive_on_update="false" label="Finance" sequence="0" value="Finance"/>
+                <element inactive_on_update="false" label="Administration" sequence="0" value="Administration"/>
+            </choice>
+        </element>
+        <element choice="1" label="Asset Type" max_length="40" name="u_asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monitor" sequence="0" value="Monitor"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="0" value="Mobile Phone"/>
+                <element inactive_on_update="false" label="Docking Station" sequence="0" value="Docking Station"/>
+                <element inactive_on_update="false" label="Desktop" sequence="0" value="Desktop"/>
+                <element inactive_on_update="false" label="Tablet" sequence="0" value="Tablet"/>
+                <element inactive_on_update="false" label="Headset" sequence="0" value="Headset"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="Laptop"/>
+                <element inactive_on_update="false" label="Printer" sequence="0" value="Printer"/>
+            </choice>
+        </element>
+        <element label="Asset Tag" max_length="10" name="u_asset_tag" type="string"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element label="Asset Name" max_length="40" name="u_asset_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Return Date" max_length="40" name="u_expected_return_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="u_actual_return_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Condition" max_length="40" name="u_condition" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchase Date" max_length="40" name="u_purchase_date" type="glide_date"/>
+        <element label="Location" max_length="40" name="u_location" type="geo_point"/>
+        <element label="Serial Number" max_length="10" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty End" max_length="40" name="u_warranty_end" type="glide_date"/>
+    </element>
+</database>
