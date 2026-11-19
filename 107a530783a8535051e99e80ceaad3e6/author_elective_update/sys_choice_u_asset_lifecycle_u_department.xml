@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_department" table="u_asset_lifecycle" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_department</element>
+            <name>u_asset_lifecycle</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:09</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_department</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Dev404306">107a530783a8535051e99e80ceaad3e6</sys_scope>
+            <sys_update_name>sys_choice_u_asset_lifecycle_u_department</sys_update_name>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-11-19 05:49:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Administration</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:11</sys_updated_on>
+            <value>Administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finance</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:09</sys_updated_on>
+            <value>Finance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:13</sys_updated_on>
+            <value>HR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:14</sys_updated_on>
+            <value>IT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marketing</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:14</sys_updated_on>
+            <value>Marketing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operations</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:13</sys_updated_on>
+            <value>Operations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>u_asset_lifecycle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Gowtham</sys_created_by>
+            <sys_created_on>2026-08-18 19:09:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gowtham</sys_updated_by>
+            <sys_updated_on>2026-08-18 19:09:10</sys_updated_on>
+            <value>Sales</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dev404306">107a530783a8535051e99e80ceaad3e6</claim_owner_scope>
+        <claim_timestamp>1a1f25a65840000001</claim_timestamp>
+        <metadata_update_name>sys_choice_u_asset_lifecycle_u_department</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Dev404306</previous_claim_name>
+        <previous_claim_scope>107a530783a8535051e99e80ceaad3e6</previous_claim_scope>
+        <sys_created_by>Gowtham</sys_created_by>
+        <sys_created_on>2026-11-19 05:49:32</sys_created_on>
+        <sys_id>48be1bc383e8535051e99e80ceaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Gowtham</sys_updated_by>
+        <sys_updated_on>2026-11-19 05:49:32</sys_updated_on>
+    </sys_claim>
+</record_update>

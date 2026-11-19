@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for records in u_asset_lifecycle, for users with role u_asset_lifecycle_user.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>u_asset_lifecycle</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Gowtham</sys_created_by>
+        <sys_created_on>2026-08-18 18:55:58</sys_created_on>
+        <sys_id>9dd693958376479051e99e80ceaad355</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_asset_lifecycle</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dev404306">107a530783a8535051e99e80ceaad3e6</sys_scope>
+        <sys_update_name>sys_security_acl_9dd693958376479051e99e80ceaad355</sys_update_name>
+        <sys_updated_by>Gowtham</sys_updated_by>
+        <sys_updated_on>2026-11-19 05:49:33</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dev404306">107a530783a8535051e99e80ceaad3e6</claim_owner_scope>
+        <claim_timestamp>1a1f25a68760000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_9dd693958376479051e99e80ceaad355</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Dev404306</previous_claim_name>
+        <previous_claim_scope>107a530783a8535051e99e80ceaad3e6</previous_claim_scope>
+        <sys_created_by>Gowtham</sys_created_by>
+        <sys_created_on>2026-11-19 05:49:33</sys_created_on>
+        <sys_id>d8be5bc383e8535051e99e80ceaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Gowtham</sys_updated_by>
+        <sys_updated_on>2026-11-19 05:49:33</sys_updated_on>
+    </sys_claim>
+</record_update>
